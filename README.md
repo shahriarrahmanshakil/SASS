@@ -4,4 +4,4 @@ __Sass (short for syntactically awesome style sheets) is a preprocessor scriptin
 <br>
 <br>
 
-<img src="Sass.png" alt="Sass Logo" height="300px" width="400px">
+<img src="Sass.png" alt="Sass Logo" height="300px" width="500px" style= >
