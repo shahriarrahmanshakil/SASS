@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 1100px;
+}
+
+header {
+  background: rgb(236, 179, 144);
+}
+
+nav {
+  margin: 15px 0px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  color: whitesmoke;
+  margin: 0px 15px;
+}
+nav ul li a {
+  display: inline-block;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 15px;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+nav ul li a:hover {
+  background-color: black;
+}
+
+section {
+  font-size: 3rem;
+}
+
+aside {
+  background: rgb(48, 59, 76);
+  color: rgb(111, 168, 255);
+}
+
+main {
+  background: gray;
+}
+
+footer {
+  background: salmon;
+}/*# sourceMappingURL=variable_sass.css.map */

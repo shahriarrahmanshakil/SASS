@@ -1,0 +1,68 @@
+//variable declaration
+    $header-bgcolor : rgb(236, 179, 144);
+    $main-bgcolor : gray;
+    $foter-bgcolor : salmon;
+    $body-height : 1100px;
+    $section-fontsize : 3rem;
+    $aside-color : rgb(111, 168, 255);
+    $aside-bgcolor : rgb(48, 59, 76);
+
+// browser reset code
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: $body-height;
+}
+
+header{
+   background: $header-bgcolor; 
+}
+
+//navbar style
+nav{
+    margin: 15px 0px;
+    ul{
+        list-style-type: none;
+
+        li{
+            display: inline-block;
+            color: whitesmoke;
+            margin: 0px 15px;
+
+            a{
+                display: inline-block;
+                color: whitesmoke;
+                text-decoration: none;
+                padding: 15px;
+                transition: 0.5s;
+                border-radius: 10px;
+            }
+            a:hover{
+                background-color: black;
+            
+            }
+        }
+    }
+}
+
+section{
+    font-size: $section-fontsize;
+}
+
+aside{
+    background: $aside-bgcolor;
+    color: $aside-color;
+}
+
+main{
+    background: $main-bgcolor;
+}
+
+footer{
+    background: $foter-bgcolor;
+}
+
